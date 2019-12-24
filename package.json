@@ -1,0 +1,27 @@
+{
+  "name": "regex-toolkit",
+  "version": "1.0.0",
+  "description": "A simple library that help you escape string for regex and form regex from string. And add regex search method for object key and array index.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrwdrv/regex-toolkit.git"
+  },
+  "keywords": [
+    "regex",
+    "escape",
+    "tool",
+    "string",
+    "key",
+    "index"
+  ],
+  "author": "scrwdrv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrwdrv/regex-toolkit/issues"
+  },
+  "homepage": "https://github.com/scrwdrv/regex-toolkit#readme"
+}
