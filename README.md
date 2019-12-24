@@ -8,7 +8,7 @@ npm i simple-regex-toolkit
 ```
 
 ## Usage
-### Esacpe && Build Regex
+### Esacpe & Build Regex
 ```js
 import * as regex from 'simple-regex-toolkit';
 
