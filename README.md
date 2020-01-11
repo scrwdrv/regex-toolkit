@@ -38,3 +38,12 @@ const object = {
 console.log(object.keyOfRegex(/^p/));
 // price
 ```
+
+### Validate Regex
+```js
+regex.isRegex('/google/i');
+// true
+
+regex.isRegex('google;);
+// false
+```

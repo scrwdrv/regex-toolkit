@@ -8,3 +8,4 @@ declare global {
 }
 export declare function from(str: string): RegExp;
 export declare function escape(str: string): string;
+export declare function isRegex(str: string): boolean;

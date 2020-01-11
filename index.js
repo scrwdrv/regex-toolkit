@@ -23,4 +23,8 @@ function escape(str) {
     return str.replace(/[\^$\\.*+?()[\]{}|]/g, '\\$&');
 }
 exports.escape = escape;
+function isRegex(str) {
+    return /^\/((?![*+?])(?:[^\r\n\[/\\]|\\.|\[(?:[^\r\n\]\\]|\\.)*\])+)\/((?:g(?:im?|mi?)?|i(?:gm?|mg?)?|m(?:gi?|ig?)?)?)$/.test(str);
+}
+exports.isRegex = isRegex;
 //# sourceMappingURL=index.js.map

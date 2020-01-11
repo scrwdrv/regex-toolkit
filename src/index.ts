@@ -29,3 +29,7 @@ export function from(str: string) {
 export function escape(str: string) {
     return str.replace(/[\^$\\.*+?()[\]{}|]/g, '\\$&');
 }
+
+export function isRegex(str: string) {
+    return /^\/((?![*+?])(?:[^\r\n\[/\\]|\\.|\[(?:[^\r\n\]\\]|\\.)*\])+)\/((?:g(?:im?|mi?)?|i(?:gm?|mg?)?|m(?:gi?|ig?)?)?)$/.test(str);
+}
